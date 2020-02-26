@@ -21,7 +21,7 @@ class App extends Component {
 
   componentDidMount() {
     axios({
-      url: ` https://www.potterapi.com/v1/characters`,
+      url: `https://www.potterapi.com/v1/characters`,
       method: `GET`,
       dataResponse: `json`,
       params: {
